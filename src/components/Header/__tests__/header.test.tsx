@@ -7,4 +7,33 @@ describe('Testes para o componente Header', () => {
     renderizaComProvider(<Header />)
     expect(screen.getByText('EBAC Games')).toBeInTheDocument()
   })
+  test('Deve renderizar com 2 itens no carrinho', () => {
+    renderizaComProvider(<Header/>, {
+      preloadedState: {
+        carrinho: {
+          itens: [
+            {
+              id: 1,
+              categoria: 'RPG',
+              imagem: '',
+              plataformas: ['Windows'],
+              preco: 150.9,
+              precoAntigo: 199.9,
+              titulo: 'Elden Ring'
+            },
+            {
+              id: 2,
+              categoria: 'RPG',
+              imagem: '',
+              plataformas: ['Windows, PS5'],
+              preco: 180.9,
+              precoAntigo: 300.9,
+              titulo: 'Hogwarts Legacy'
+            }
+          ]
+        }
+      }
+    })
+    expect(screen.getByTestId('qtde-carrinho').innerHTML).toContain('2 itens')
+  })
 })
