@@ -1,46 +1,51 @@
-# Getting Started with Create React App
+# Site EBAC Games
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto desenvolvido no curso de Full Stack Python da EBAC - Escola Britânica de Artes Criativas e Tecnologia.
 
-## Available Scripts
+Este site de games foi construído com **React-Redux**, estilizado com **Styled-Components**, que permite a inserção
+de games no carrinho de compras, e o acumulo do valor total dos jogos inseridos no carrinho de compras.
 
-In the project directory, you can run:
+## 🚀 Começando
 
-### `npm start`
+Estas instruções permitirão que você obtenha uma cópia do projeto em execução em sua máquina local para fins de desenvolvimento e teste.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Iniciando com Create React App
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Este projeto foi inicializado com [Create React App](https://github.com/facebook/create-react-app).
 
-### `npm test`
+### Pré-requisitos
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Antes de começar, certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 
-### `npm run build`
+- **Node.js**
+- **npm (geralmente vem com o Node.js)**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Instalação
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Siga estas etapas a seguir para configurar o ambiente de desenvolvimento:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone este repositório em sua máquina local.
+2. Navegue até o diretório clonado.
+3. Execute o seguinte comando para instalar as dependências:
 
-### `npm run eject`
+  **``npm install``**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Executar o projeto
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Para executar o projeto em modo de desenvolvimento, execute o comando:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+    npm start
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Abrir [http://localhost:3000](http://localhost:3000) para visualizar no browser.
 
-## Learn More
+## 🛠️Ferramentas utilizadas para construção do projeto
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* **React** - Biblioteca JavaScript para criar interfaces de usuário.
+* **React-Redux** - Biblioteca JavaScript para gerenciamento de estado em aplicações.
+* **Styled Components** - Biblioteca para estilizar componentes React.
+* **EditorConfig e Prettier** - Padrão de formatação de código no ambiente de desenvolvimento
+* **Jest** - Framework para testes JavaScript.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## ✒️ Autor
+
+Guilherme Ferreira Camargo

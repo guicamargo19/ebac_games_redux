@@ -8,7 +8,7 @@ describe('Testes para o componente Header', () => {
     expect(screen.getByText('EBAC Games')).toBeInTheDocument()
   })
   test('Deve renderizar com 2 itens no carrinho', () => {
-    renderizaComProvider(<Header/>, {
+    renderizaComProvider(<Header />, {
       preloadedState: {
         carrinho: {
           itens: [
