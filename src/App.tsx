@@ -21,8 +21,8 @@ function App() {
   return (
     <Provider store={store}>
       <GlobalStyle />
+      <Header />
       <div className="container">
-        <Header />
         <Produtos />
       </div>
     </Provider>

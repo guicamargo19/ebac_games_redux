@@ -11,6 +11,7 @@ export const Capa = styled.div`
 
   img {
     display: block;
+    border-radius: 6px;
     width: 100%;
     margin-bottom: 8px;
   }
@@ -35,6 +36,7 @@ export const Prices = styled.div`
 export const Tag = styled.span`
   background-color: ${cores.corPrincipal};
   position: absolute;
+  border-radius: 6px;
   top: 8px;
   left: 8px;
   padding: 8px;
@@ -52,6 +54,7 @@ export const Plataformas = styled.ul`
     padding: 8px;
     font-size: 10px;
     white-space: nowrap;
+    border-radius: 6px;
     margin-right: 8px;
     margin-bottom: 8px;
     color: #fff;

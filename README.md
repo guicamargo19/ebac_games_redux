@@ -1,9 +1,11 @@
 # Site EBAC Games
 
-Projeto desenvolvido no curso de Full Stack Python da EBAC - Escola Britânica de Artes Criativas e Tecnologia.
+<img src="public/games.png">
 
 Este site de games foi construído com **Redux**, estilizado com **Styled Components**, que permite a inserção
 de games no carrinho de compras, e o acumulo do valor total dos jogos inseridos no carrinho de compras.
+
+Projeto desenvolvido no curso de Full Stack Python da EBAC - Escola Britânica de Artes Criativas e Tecnologia.
 
 ## 🚀 Começando
 
